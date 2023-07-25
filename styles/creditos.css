@@ -1,0 +1,69 @@
+.creditos__content-title{
+    font-family: var(--primary-font);
+    color: var(--color-white);
+    margin: 0 54px;
+    font-size: 1.5rem;
+}
+
+.creditos__content-paragraph{
+    font-family: var(--primary-font);
+    color: var(--color-white);
+    margin: 1em 50px;
+    font-size: 1rem;
+}
+
+.creditos__content-contato{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 0 50px;
+}
+
+.contact__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__button{
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 1.25rem;
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 14px;
+    width: 30%;
+    text-align: center;
+    margin: 0.5em 0;
+    color: var(--primary-color);
+}
+
+@media screen and (min-width: 1650px){
+    .creditos__content-title{
+        margin: 1em 0 0 10.5em;
+        font-size: 2.5rem;
+    }
+
+    .creditos__content-paragraph{
+        font-size: 1.75rem;
+        margin: 1.5em 0 0 15em;
+        width: 50%;
+        text-align: justify;
+    }
+
+    .creditos__content-contato{
+        font-size: 1.75rem;
+        margin: 1.5em 0 0 15em;
+    }
+
+    .contact__button{
+        margin-right: 24em;
+        width: 15%;
+        padding: 1em 1.5em;
+        font-size: 1.5rem;
+    }
+
+    .contact__button:hover{
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+    }
+}

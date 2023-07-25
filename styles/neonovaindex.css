@@ -1,0 +1,83 @@
+.title-neonova{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.neonova__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.neonova__img{
+    max-width:80%; 
+    width:auto; 
+    align-self: center;
+    margin: 1em;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.neonova__description{
+    font-family: var(--secondary-font);
+    color: var(--color-white);
+    padding: 0 50px;
+    text-align: justify;
+}
+
+.sub-title{
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0.6em 0 0 2em;
+}
+
+.cap__button{
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 14px;
+    margin: 1em 50px;
+    padding: 0.6em;
+    width: 13%;
+}
+
+.cap__button:hover{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+
+@media screen and (min-width: 1650px){
+    .neonova__img{
+        display: none;
+    }
+
+    .title-neonova{
+        text-align: left;
+        margin: 1em 0 0 580px;
+        color: var(--color-white);
+        font-size: 4rem;
+    }
+
+    .neonova__description{
+        text-align: justify;
+        margin: 1.5em 0 0 327px;
+        font-size: 1.5rem;
+        width: 40%;
+    }
+
+    .cap__button{
+        margin-left: 376px;
+        padding: 1.5em 2em;
+        width: 3%;
+    }
+
+    .sub-title{
+        font-size: 2.25rem;
+        text-align: left;
+        margin: 1em 0 0 377px;
+    }
+    
+}
