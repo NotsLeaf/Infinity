@@ -48,6 +48,9 @@
     color: var(--bg-color);
 }
 
+.caps_buttons{
+    flex-direction: row;
+}
 
 @media screen and (min-width: 1650px){
     .neonova__img{
