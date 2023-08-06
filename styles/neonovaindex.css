@@ -50,6 +50,7 @@
 
 .caps_buttons{
     flex-direction: row;
+    margin-top: 10em;
 }
 
 @media screen and (min-width: 1650px){
